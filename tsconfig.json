@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "outDir": "build",
+    "strict": true,
+    "project": "./tsconfig.json",
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "jsx": "react",
+    "plugins": [
+      { "transform": "ts-transformer-imports" }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
